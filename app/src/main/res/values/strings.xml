@@ -16,6 +16,18 @@
     <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Miwok</string>
 
+    <!-- Title for the Numbers Activity. [CHAR LIMIT=12] -->
+    <string name="numbers">Numbers</string>
+
+    <!-- Title for the Family Activity. [CHAR LIMIT=12] -->
+    <string name="family">Family</string>
+
+    <!-- Title for the Colors Activity. [CHAR LIMIT=12] -->
+    <string name="colors">Colors</string>
+
+    <!-- Title for the Phrases Activity. [CHAR LIMIT=12] -->
+    <string name="phrases">Phrases</string>
+
     <!-- Category name for phrases [CHAR LIMIT=20] -->
     <string name="category_phrases">Phrases</string>
 

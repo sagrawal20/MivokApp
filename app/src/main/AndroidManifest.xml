@@ -9,28 +9,32 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".ColorsActivity"
-            android:exported="false">
+            android:exported="false"
+            android:label="@string/colors">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".FamilyActivity"
-            android:exported="false">
+            android:exported="false"
+            android:label="@string/family">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".NumbersActivity"
-            android:exported="false">
+            android:exported="false"
+            android:label="@string/numbers">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".PhrasesActivity"
-            android:exported="false">
+            android:exported="false"
+            android:label="@string/phrases">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
