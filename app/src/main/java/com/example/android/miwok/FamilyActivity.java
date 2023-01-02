@@ -12,7 +12,7 @@ public class FamilyActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_family);
+        setContentView(R.layout.word_list);
         ArrayList<Word> family = new ArrayList<>();
         family.add(new Word("father", "әpә", R.drawable.father));
         family.add(new Word("mother", "әṭa", R.drawable.mother));
@@ -26,7 +26,7 @@ public class FamilyActivity extends AppCompatActivity {
         family.add(new Word("grandfather", "paapa", R.drawable.grandmother));
 
         WordAdapter items = new WordAdapter(this, family);
-        ListView listView = findViewById(R.id.familyListView);
+        ListView listView = findViewById(R.id.listView);
         listView.setAdapter(items);
 
     }

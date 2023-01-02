@@ -3,13 +3,7 @@ package com.example.android.miwok;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.util.Log;
-import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.GridView;
-import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -18,7 +12,7 @@ public class NumbersActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_numbers);
+        setContentView(R.layout.word_list);
         ArrayList<Word> numbers = new ArrayList<>();
         numbers.add(new Word("one", "lutti", R.drawable.one));
         numbers.add(new Word("two", "otiiko", R.drawable.two));
@@ -35,7 +29,7 @@ public class NumbersActivity extends AppCompatActivity {
 //        tv.setTextColor(0xFF040000);
 //        tv.setBackgroundColor(0xFFFFD9A9);
         WordAdapter items = new WordAdapter(this, numbers);
-        ListView listView = findViewById(R.id.numbersListView);
+        ListView listView = findViewById(R.id.listView);
         listView.setAdapter(items);
 
 //        for(int i=0;i<numbers.size();i++){
