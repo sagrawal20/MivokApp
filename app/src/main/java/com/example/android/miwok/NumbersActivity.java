@@ -2,7 +2,9 @@ package com.example.android.miwok;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.os.Build;
 import android.os.Bundle;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -28,7 +30,7 @@ public class NumbersActivity extends AppCompatActivity {
 //        tv.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
 //        tv.setTextColor(0xFF040000);
 //        tv.setBackgroundColor(0xFFFFD9A9);
-        WordAdapter items = new WordAdapter(this, numbers);
+        WordAdapter items = new WordAdapter(this, numbers, R.color.category_numbers);
         ListView listView = findViewById(R.id.listView);
         listView.setAdapter(items);
 
