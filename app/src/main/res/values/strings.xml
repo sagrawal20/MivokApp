@@ -16,6 +16,9 @@
     <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Miwok</string>
 
+    <!-- Title for the Image of Words. [CHAR LIMIT=12] -->
+    <string name="wordImage">Word Image</string>
+
     <!-- Title for the Numbers Activity. [CHAR LIMIT=12] -->
     <string name="numbers">Numbers</string>
 
