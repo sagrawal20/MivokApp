@@ -35,7 +35,7 @@ public class NumbersActivity extends AppCompatActivity {
 //        tv.setTextColor(0xFF040000);
 //        tv.setBackgroundColor(0xFFFFD9A9);
         WordAdapter items = new WordAdapter(this, numbers);
-        ListView listView = findViewById(R.id.listView);
+        ListView listView = findViewById(R.id.numbersListView);
         listView.setAdapter(items);
 
 //        for(int i=0;i<numbers.size();i++){
