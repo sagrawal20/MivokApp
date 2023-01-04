@@ -14,7 +14,8 @@
             android:layout_height="match_parent"
             android:id="@+id/tabLayout"
             app:tabGravity="fill"
-            app:tabMode="fixed">
+            app:tabMode="fixed"
+            app:tabTextColor="@color/white">
         </com.google.android.material.tabs.TabLayout>
 
 
