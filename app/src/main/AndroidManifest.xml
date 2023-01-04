@@ -10,34 +10,38 @@
         <activity
             android:name=".ColorsActivity"
             android:exported="false"
-            android:label="@string/colors">
+            android:label="@string/colors"
+            android:parentActivityName=".MainActivity">
             <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".FamilyActivity"
             android:exported="false"
-            android:label="@string/family">
+            android:label="@string/family"
+            android:parentActivityName=".MainActivity">
             <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".NumbersActivity"
             android:exported="false"
-            android:label="@string/numbers">
+            android:label="@string/numbers"
+            android:parentActivityName=".MainActivity">
             <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".PhrasesActivity"
             android:exported="false"
-            android:label="@string/phrases">
+            android:label="@string/phrases"
+            android:parentActivityName=".MainActivity">
             <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".MainActivity"
